@@ -1,0 +1,22 @@
+.NavbarOptionsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.NavbarOptionsContainer:hover {
+  color: black;
+}
+
+.NavbarOptionsContainer .NavbarOptionstitleContainer {
+  font-size: 12px;
+  font-weight: 400;
+}
+.NavbarOptionsContainer .navbarOptionIcon {
+  object-fit: contain;
+  width: 25px;
+  height: 25px;
+}

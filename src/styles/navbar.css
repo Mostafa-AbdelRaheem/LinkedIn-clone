@@ -1,0 +1,40 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  z-index: 999;
+  border-bottom: 0.1px solid lightgray;
+}
+.navbarContainer .navbarLeftContainer {
+  display: flex;
+}
+.navbarContainer .navbarLeftContainer .imageContainer {
+  width: 40px;
+}
+.navbarContainer .navbarLeftContainer .imageContainer .image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.navbarContainer .navbarLeftContainer .navbarSearch {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  height: 22px;
+  color: gray;
+  background-color: #eef3f8;
+}
+
+.navbarContainer .navbarLeftContainer .navbarSearch .searchField {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.navbarContainer .navbarRightContainer {
+  display: flex;
+}
