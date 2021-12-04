@@ -1,0 +1,89 @@
+Feed.js
+
+
+
+
+    
+    // async function getPosts(db) {
+    //     const postsCol = collection(db, 'posts');
+    //     const postsSnapshot = await getDocs(postsCol);
+    //     const postsList = postsSnapshot.docs.map(doc => ({
+    //                          id:doc.id,
+    //                          data:doc.data(),
+    //                     }));
+    //     return postsList;
+    //   }
+
+    //   async function postPosts(db) {
+    //     const postsCol = collection(db, 'posts');
+    //     const postsSnapshot = await getDocs(postsCol);
+    //     const postsList = postsSnapshot.docs.map(doc => ({
+    //                          id:doc.id,
+    //                          data:doc.data(),
+    //                     }));
+    //     return postsList;
+    //   }
+
+
+
+// const sendPost=(e)=>{
+//     e.preventDefault();
+//     // postPosts(db);
+//     const database= getDatabase();
+//     set(ref(database,"posts"),{
+//             name : "Mostafa Abdelraheem",
+//             description: "this is a test",
+//             message:input,
+//             photoUrl:"",
+//           })
+    
+// };
+// The Firebase JavaScript SDK (v8.2.1) is now available.
+//  For more details, see the Firebase JavaScript SDK release notes. 
+//  To install the SDK, see Add Firebase to your JavaScript Project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Get a list of cities from your database
+// async function getPosts(db) {
+//     const postsCol = collection(db, 'posts');
+//     const postsSnapshot = await getDocs(postsCol);
+//     const postsList = postsSnapshot.docs.map(doc => doc.data());
+//     return postsList;
+//   }
+
+
+
+// const getPosts=async(db)=>{
+//     const postsCol = collection(db, 'posts');
+//     const postsSnapshot = await getDocs(postsCol);
+//     const postsList = postsSnapshot.docs.map((doc) =>({
+//                  id:doc.id,
+//                  data:doc.data(),
+//             })
+//             // doc.data());
+//     return postsList;
+// };
+
+
+
+    useEffect(()=>{
+         getPosts(db);
+        // db.collection('posts').onSnapshot(snapshot=>(
+        //     setPosts(snapshot.docs.map((doc)=>({
+        //         id:doc.id,
+        //         data:doc.data(),
+        //     })))
+        // ))
+
+    },[])

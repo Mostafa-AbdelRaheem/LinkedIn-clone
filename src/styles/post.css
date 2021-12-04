@@ -1,0 +1,30 @@
+.postContainer {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.postContainer .postHeader {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.postContainer .postHeader .Avatarpic {
+  margin: auto 0;
+}
+.postContainer .postHeader .postInfo {
+  margin-left: 10px;
+}
+.postContainer .postHeader .postInfo h2 {
+  font-size: 15px;
+}
+.postContainer .postHeader .postInfo p {
+  font-size: 12px;
+  color: gray;
+}
+
+.postContainer .postBtns {
+  display: flex;
+  justify-content: space-evenly;
+}

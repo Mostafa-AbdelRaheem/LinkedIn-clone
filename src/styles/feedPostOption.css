@@ -1,0 +1,15 @@
+.feedPostOption {
+  display: flex;
+  align-items: center;
+  color: gray;
+  padding: 10px;
+  cursor: pointer;
+}
+.feedPostOption:hover {
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.feedPostOption h4 {
+  margin-left: 5px;
+}

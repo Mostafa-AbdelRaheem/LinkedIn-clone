@@ -1,0 +1,4 @@
+.widgetsContainer {
+  /* display: flex; */
+  flex-basis: 20%;
+}

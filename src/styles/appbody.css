@@ -1,0 +1,4 @@
+.appBodyContainer {
+  display: flex;
+  justify-content: space-around;
+}
