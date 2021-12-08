@@ -40,3 +40,13 @@
 .navbarContainer .navbarRightContainer {
   display: flex;
 }
+.navbarContainer .navbarRightContainer .logoutBtn {
+  width: 58px;
+  height: 36px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: #0074b1;
+  border-radius: 5px;
+  cursor: pointer;
+}

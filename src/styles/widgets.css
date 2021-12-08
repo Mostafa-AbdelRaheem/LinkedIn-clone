@@ -1,4 +1,20 @@
 .widgetsContainer {
-  /* display: flex; */
+  position: sticky;
+  top: 80px;
   flex-basis: 20%;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.widgetsContainer .widgetsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.widgetsContainer .widgetsHeader .widgetsHeader {
+  font-size: 16px;
+  font-weight: 400;
 }

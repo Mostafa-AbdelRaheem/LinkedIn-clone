@@ -1,4 +1,9 @@
 npx create-react-app linkedin-clone --template redux
+
+npm i firebase@8.2.1
+
 npm install -g firebase-tools
 
 npm i @material-ui/core
+
+npm i react-flip-move
