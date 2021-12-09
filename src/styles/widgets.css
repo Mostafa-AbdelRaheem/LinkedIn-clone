@@ -18,3 +18,27 @@
   font-size: 16px;
   font-weight: 400;
 }
+
+.widgetsContainer .widgetsArticles {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.widgetsContainer .widgetsArticles:hover {
+  background-color: whitesmoke;
+}
+
+.widgetsContainer .widgetsArticles .widgetsLeft {
+  color: #0177b7;
+  margin-right: 5px;
+}
+
+.widgetsContainer .widgetsArticles .widgetsRight h4 {
+  font-size: 14px;
+}
+
+.widgetsContainer .widgetsArticles .widgetsRight p {
+  color: gray;
+  font-size: 12px;
+}

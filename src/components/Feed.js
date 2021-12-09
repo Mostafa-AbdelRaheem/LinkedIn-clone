@@ -17,6 +17,7 @@ const Feed = () => {
     const [input,setInput]=useState("");
 
 
+
     useEffect(()=>{
         db.collection("posts").orderBy('timestamp','desc').onSnapshot((snapshot)=>
         setPosts(
@@ -61,9 +62,6 @@ const sendPost=(e)=>{
 
             </div>
         </div>
-        {/* {id,data:{name,description,message,photoUrl}} */}
-        {console.log("this is posts list",posts)}
-
 
         <FlipMove>
         {posts.map(({id,data:{name,description,message,photoUrl}})=>(

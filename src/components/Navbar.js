@@ -41,7 +41,7 @@ const Navbar = () => {
             <NavbarOptions Icon={BusinessCenterIcon} title="Jobs"/>
             <NavbarOptions Icon={ChatIcon} title="Messaging"/>
             <NavbarOptions Icon={NotificationsIcon} title="Notifications"/>
-            <NavbarOptions avatar={true} title="Name"/>
+            <NavbarOptions avatar={true} title="me"/>
             {user&&(<button className="logoutBtn" onClick={logoutOfApp}>Logout</button>)}
             
         </div>
