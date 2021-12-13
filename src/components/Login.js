@@ -50,7 +50,7 @@ const Login = () => {
             )
             setTimeout(() => {
                 window.location.reload();
-              }, 1500)
+              }, 1000)
 
         })
         .catch((error)=>alert(error));

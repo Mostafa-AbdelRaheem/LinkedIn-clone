@@ -1,0 +1,25 @@
+[debug] [2021-12-13T17:58:44.857Z] ----------------------------------------------------------------------
+[debug] [2021-12-13T17:58:44.859Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mostafa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-12-13T17:58:44.859Z] CLI Version:   9.23.1
+[debug] [2021-12-13T17:58:44.859Z] Platform:      win32
+[debug] [2021-12-13T17:58:44.860Z] Node Version:  v14.17.0
+[debug] [2021-12-13T17:58:44.860Z] Time:          Mon Dec 13 2021 19:58:44 GMT+0200 (Eastern European Standard Time)
+[debug] [2021-12-13T17:58:44.861Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-13T17:58:44.910Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-13T17:58:44.910Z] > authorizing via signed-in user (mostafa.m.abdulraheem@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Mostafa\Studies\Front_End\React-Projects\linkedin-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
