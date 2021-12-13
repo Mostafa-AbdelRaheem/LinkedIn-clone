@@ -48,7 +48,9 @@ const Login = () => {
                     photoUrl:profilePic,
                 }))
             )
-            window.location.reload();
+            setTimeout(() => {
+                window.location.reload();
+              }, 1500)
 
         })
         .catch((error)=>alert(error));
