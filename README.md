@@ -1,9 +1,8 @@
-# NETFLIX_CLONE
+# LinkedIn-clone
 
 This website clone of LinkedIn,the aim of this project to practice React.js and Redux .
 You can visit the site through this [link](https://linkedin-clone-c906b.web.app/)
 This code is made with the help of Sonny Sangha Youtube Channel [Sonny Sangha](https://www.youtube.com/watch?v=QaYts9sPmcY)
-
 
 # Firebase
 
