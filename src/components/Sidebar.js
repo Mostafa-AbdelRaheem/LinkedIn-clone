@@ -2,17 +2,11 @@ import React from 'react';
 import '../styles/sidebar.css'
 import { Avatar } from '@material-ui/core';
 import { selectUser } from '../features/userSlice';
-import { useDispatch, useSelector } from 'react-redux';
+import {useSelector } from 'react-redux';
 
 const Sidebar = () => {
-    const dispatch = useDispatch();
     const user = useSelector(selectUser)
-    // const recentItem =(topic)=>(
-    //     <div className="sidebarRecentItem">
-    //         <span className="sidebarHash">#</span>
-    //         <p>{topic}</p>
-    //     </div>
-    // );
+
     return (
     <div className="sidebarContainer">
         <div className="sidebarTop">
@@ -34,8 +28,6 @@ const Sidebar = () => {
         <div className="sidebarBottom">
             <div className="sidebarRecentItem">
                 <p className="sidebarBottomHeader" >Recent</p>
-                {/* <span className="sidebarHash">#</span> */}
-                {/* he made it with function which is not working with me */}
                 <p className="sidebarBottomText">#React.Js</p>
                 <p className="sidebarBottomText">#Programming</p>
                 <p className="sidebarBottomText">#Software Engineering</p>

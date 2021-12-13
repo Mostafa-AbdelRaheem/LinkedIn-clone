@@ -9,6 +9,8 @@ const Login = () => {
     const [name,setName]=useState("");
     const [password,setPassword]=useState("");
     const [profilePic,setProfilePic]=useState("");
+    const [refresh,setRefresh]=useState("");
+
     const dispatch=useDispatch();
 
 
@@ -46,10 +48,11 @@ const Login = () => {
                     photoUrl:profilePic,
                 }))
             )
+            window.location.reload();
+
         })
         .catch((error)=>alert(error));
     };
-console.log(name);
     return (
         <div className="loginContainer">
             <div className="LoginImageContainer">
